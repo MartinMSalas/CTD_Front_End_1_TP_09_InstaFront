@@ -8,3 +8,17 @@ header>div{
     display: flex;
     justify-content: space-around;
 }
+.onlyDesktop{
+    display:none;
+}
+.gridContainer{
+    display: grid;
+    grid-template: repeat(5,1fr)/repeat(8,1fr);
+    grid-template-areas: 
+    "caratop caratop caratop caratop "
+    "logo      nombre  nada   circulitos"
+    "logoGrande logoGrande logoGrande logoGrande  "
+    "awesome awesome awesome awesome "
+    "texto texto texto texto"
+    ;
+}
